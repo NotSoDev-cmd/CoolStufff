@@ -12,6 +12,8 @@ function Home() {
         </p>
         
         <Link to="pel"><button class='button'><span>Sign Up!</span></button></Link>
+        <Link to="about"><button class='button'><span>About Us!</span></button></Link>
+        <Link to="contact"><button class='button'><span>Contact Us!</span></button></Link>
 
       </header>
     </div>

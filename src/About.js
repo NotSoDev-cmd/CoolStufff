@@ -1,11 +1,21 @@
 import React from 'react'
+import logo from './logo.jpg';
+import './For1.css';
+import { Link } from 'react-router-dom';
 
-function About() {
+
+import './App.css';
+
+function Locate() {
     return (
-        <div>
-            <h1>This is the about page</h1>
-        </div>
-    )
+        <div className="App">
+      <header className="App-header1">
+        
+      <p>We are the nerds behind NerdWeb. Duh</p>
+
+      </header>
+    </div>
+    );
 }
 
-export default About
+export default Locate

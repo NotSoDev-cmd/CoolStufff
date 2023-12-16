@@ -11,9 +11,7 @@ function Locate() {
         <div className="App">
       <header className="App-header1">
         
-
-
-
+      <p>Adding Sign up function left.</p>
 
       </header>
     </div>
