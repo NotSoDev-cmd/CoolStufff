@@ -6,8 +6,6 @@ import About from "./About.js"
 import Locate from "./locate.js"
 import Contact from "./Contact.js"
 
-
-
 function App() {
   return (
     <div className="App">
@@ -19,8 +17,6 @@ function App() {
       </Routes>
     </div>
   );
-
-  
 }
 
 export default App;
