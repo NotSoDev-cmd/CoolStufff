@@ -1,0 +1,56 @@
+
+		body{
+            font-family: Arial, sans-serif;
+            background-image: url("img/Black.png");
+            background-size: cover;
+        }
+        
+		.form-div{
+			width: 250px;
+			text-align: center;
+			margin: 150px auto;
+			background-color: rgba(0,0,0,0.5);
+			border-radius: 10px;
+			box-shadow: 0 0 25px #CF69E9;
+		}
+		.form-div img{
+			width: 250px;
+			border-radius: 10px;
+		}
+		.form-div h2{
+			color: white;
+			margin-top: 10px;
+		}
+		input[type="text"],
+		input[type="password"]{
+			text-align: center;
+			outline: none;
+			border: none;
+			font-size: 18px;
+			height: 35px;
+			background: transparent;
+			color: white;
+			border-bottom: 3px solid #CF69E9;
+			width: 200px;
+		}
+		::placeholder{
+			color: lightgrey;
+		}
+		input[type="text"]:focus,
+		input[type="password"]:focus{
+			border-bottom: 3px solid #CF69E9;
+		}
+		input[type="submit"]{
+			background: #CF69E9;
+			color: white;
+			border: none;
+			font-size: 18px;
+			margin: 15px;
+			padding: 8px 35px;
+			border-radius: 50px;
+		}
+		input[type="submit"]:hover{
+			background: #CF69E9;;
+			cursor: pointer;
+			box-shadow: 0 0 5px;
+		}
